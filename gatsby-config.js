@@ -17,5 +17,6 @@ module.exports = {
         // purgeOnly : ['components/', '/main.css', 'bootstrap/'], // Purge only these files/folders
       },
     },
+    "gatsby-plugin-typescript",
   ],
 }

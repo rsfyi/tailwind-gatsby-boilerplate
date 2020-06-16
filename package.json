@@ -11,19 +11,29 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "tsc:init": "tsc --init",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "autoprefixer": "^9.8.0",
     "gatsby": "^2.22.15",
     "gatsby-plugin-postcss": "^2.3.4",
     "gatsby-plugin-purgecss": "^5.0.0",
+    "gatsby-plugin-typescript": "^2.4.6",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "tailwindcss": "^1.4.6"
   },
   "devDependencies": {
-    "prettier": "2.0.5"
+    "@types/node": "^14.0.13",
+    "@types/react": "^16.9.36",
+    "@types/react-dom": "^16.9.8",
+    "@typescript-eslint/eslint-plugin": "^3.3.0",
+    "@typescript-eslint/parser": "^3.3.0",
+    "eslint": "^7.2.0",
+    "prettier": "2.0.5",
+    "typescript": "^3.9.5"
   },
   "repository": {
     "type": "git",
